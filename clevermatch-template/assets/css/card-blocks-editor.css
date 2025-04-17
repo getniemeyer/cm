@@ -1,0 +1,31 @@
+.wp-block-custom-card {
+		border: 1px solid #ccc;
+		border-radius: 20px!important;
+		padding: 20px;
+		background: #fff;
+		margin-bottom: 20px;
+		min-width: 255px;
+		max-width: 840px!important;
+}
+
+.wp-block-custom-card .card-body {
+		padding: 15px;
+}
+
+.wp-block[data-type="custom/card"] {
+		align-items: flex-start;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;		
+		position: relative;
+		width: 100%;	
+}
+
+.wp-block[data-type="custom/card"] .card {
+		border-radius: 20px;
+		width: 100%!important;
+		min-width: 100%!important;
+}
+
